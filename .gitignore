@@ -1,0 +1,28 @@
+# Virtual environment
+myenv/
+
+# ChromaDB vector store (rebuild with index_docs.py)
+storage/
+
+# PDF files (too large, keep local)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# HuggingFace cache
+.cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# .env
+.env
+
